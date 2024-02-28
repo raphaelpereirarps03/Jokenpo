@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         width:'100%',
+        height: 80,
     },
     tituloPlacar: {
         backgroundColor: '#fff',
@@ -77,6 +78,32 @@ const styles = StyleSheet.create({
         height:100,
         width:120,
     },
+
+    modalContainer: {
+        backgroundColor:'#00000070',
+        flex:1,
+        alignItems:'center',
+        justifyContent:'center',
+    },
+
+    modalContent: {
+        backgroundColor:'#ccc',
+        height:'20%',
+        width:'60%',
+        
+    },
+    botao1: {
+        alignItems:'flex-end',
+        justifyContent:'flex-end',
+    },
+    botao2: {
+        alignItems:'flex-star',
+        justifyContent:'flex-start',
+    },
+    botaoPartida: {
+        alignItems:'flex-star',
+        justifyContent:'flex-start',
+    }
 
 });
 
